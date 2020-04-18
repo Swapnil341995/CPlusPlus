@@ -10,4 +10,14 @@ int main(){
 	q++;
 	cout<<q<<endl;
 	cout<<x<<endl;
+	
+	cout<<"----------------------------------"<<endl;
+	
+	int z = 10;
+	int b = 15;
+	int &a = z;
+	z++;
+	cout<<*(&a);
+	//&a = b;
+	cout<<a;
 }
