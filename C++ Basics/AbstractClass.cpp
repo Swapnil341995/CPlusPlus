@@ -23,7 +23,7 @@ class student : public person
 int main()
 {
 	//person p;
-	student s, *p;
+	student s, *p;	//Creating a pointer
 	s.getAdmission();
 	p = &s;
 	p -> getAdmission();
