@@ -28,8 +28,8 @@ class B{
 	B(A &b){
 		m = b.getA();
 		n = b.getB();
-        q = new int;
-		*q = *b.p;
+        q = new int;//--
+		*q = *b.p;//--
 	}
 	void showData(){cout<<"m is "<<m<<" n is "<<n<<" q is "<<*q<<endl;}
 };
