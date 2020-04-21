@@ -27,5 +27,5 @@ class child : public parent1,parent2
     }
 };
 int main(){
-    child c1;   //to solve the diamond problem lets make 
+    child c1;   //to solve the diamond problem lets make virtual
 }
